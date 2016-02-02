@@ -1,0 +1,53 @@
+.content {
+	min-height: 400px;
+    color: #e36b23;
+}
+
+.page-header h1 {
+	margin: 0;
+}
+
+.container > footer p {
+    text-align: center; /* centrer le footer */
+}
+   
+.clearfix textarea {
+	width: 400px;
+	height: 300px;
+}
+
+
+.cacher_notif {
+	display: block;
+	float: right;
+}
+
+.article img {
+	float: left;
+	margin: 0 0.5em 0.5em 0;
+}
+
+.spacer {
+	clear: both;
+}
+
+.inputForm {
+	width: 100%;
+}
+
+form textarea {
+	height: 300px;
+}
+
+body {
+    background-image: url("../assets/images/bg.jpg");
+    color: aliceblue;
+}
+
+label {
+    color: #e36b23;
+}
+
+.topbar-right {
+    float: right;
+}

@@ -22,7 +22,7 @@ if(isset($_POST[email])&&isset($_POST[password])){
 			<!--Affichahe d'une popup pour confirmer l'ajout-->
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<script type="text/javascript">
-		window.location.href= "../index.php";
+            window.location.href= "../index.php";
 		</script>
 		<?php
 	} else {
@@ -31,7 +31,7 @@ if(isset($_POST[email])&&isset($_POST[password])){
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<script type="text/javascript">
             alert("erreur");
-		window.location.href= "../login.php";
+		    window.location.href= "../login.php";
 		</script>
 		<?php
 	}

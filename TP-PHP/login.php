@@ -1,3 +1,5 @@
+<?php include("assets/connectBDD.php");?>
+
 <head>
 
     <!-- start: CSS -->
@@ -7,7 +9,7 @@
     <link href="css/style-responsive.css" rel="stylesheet">
 
     <style type="text/css">
-        body { background: url(assets/images/bg-login.jpg) no-repeat center fixed  !important; }
+        body { background: url(img/bg-login.jpg) no-repeat center fixed  !important; }
     </style>
 </head>
 
@@ -21,8 +23,8 @@
                         <a href="index.php"><i class="halflings-icon home"></i></a>
                     </div>
                     <h3>Connectez-vous a votre compte</h3>
-                    
-                    <?php if(!isset($_SESSION["session"])){ ?>
+                    <!-- Si la personne présente sur le site est invité on affiche le formulaire de connection -->
+                    <?php session_start(); if(!isset($_SESSION["session"])){ ?>
                     <form action="assets/traitementConnexion.php" method="post">
                         <fieldset>
 
@@ -42,10 +44,11 @@
                                 <button type="submit" class="btn btn-primary">Login</button>
                             </div>
                             <div class="clearfix"></div>
-                            </form>
-                        <?php } else { echo '<p>Déja connecter</p>' ; } ?>
-                        </div><!--/span-->
-                </div><!--/row-->
-            </div><!--/.fluid-container-->
-        </div><!--/fluid-row-->
-        </body>
+                        </fieldset>
+                    </form>
+                    <?php } else { echo '<p>Deja connecter</p>' ; } ?>
+                </div><!--/span-->
+            </div><!--/row-->
+        </div><!--/.fluid-container-->
+    </div><!--/fluid-row-->
+</body>

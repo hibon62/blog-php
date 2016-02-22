@@ -3,7 +3,7 @@ include('connectBDD.php');
 
 //SI les données on bien était transmis
 if(isset($_GET[idArticle] )){
-	mysql_real_escape_string();
+	
 
  	$query = "DELETE  FROM `articles` WHERE `id` = " . $_GET[idArticle] ;
 

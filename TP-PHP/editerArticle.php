@@ -27,10 +27,7 @@
               echo  '<textarea name="descriptionArticle" class="iputForm">"'.$ligne[contene].'"</textarea><br>';
               echo  '<input type="submit" value="editer"> </form></div>';
           ?>
-      
-          
-        
-      </div>
-    </div>
+      </div><!--/content-->
+    </div><!--/container-->
 
 <?php include('assets/footer.php') ?>

@@ -1,4 +1,5 @@
-<?php include('assets/header.php') ?>
+<?php include('assets/header.php') 
+?>
 
     <div class="container">
 
@@ -10,6 +11,10 @@
         
         
           <div class="span8">
+              <?php 
+    
+    session_start(); if(isset($_SESSION["session"])){
+?>
             <form enctype="multipart/form-data" action="assets/addArticle.php" method="post">
                 <label>Titre de l'article</label>
                 <input type="text" name="titreArticle" class="inputForm">
@@ -20,8 +25,7 @@
                 <input type="submit">
             </form>
           </div>
-        
       </div>
-
+<?php } else { echo '<p>Petit malin, connectez-vous !</p>' ; } ?>
 
 <?php include('assets/footer.php') ?>

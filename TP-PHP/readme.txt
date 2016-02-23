@@ -1,15 +1,16 @@
-﻿**********************************************************************************
+**********************************************************************************
 ************************         Blog de François         ************************
 **********************************************************************************
 
-Lors de l'arriver sur le blog, il y a plusieurs possibilité :
+Fonctionnalité du blog
     
     - Visionner les articles deja présente sur le blog
     - Vous inscrire, si vous n'avait pas de compte
     - Vous connecter si vous etes inscrit
     - Rechercher un article a l'aide du moteur de recherche
+    - Rédiger, éditer et supprimer des articles si vous etes connecté (Point de vue sécurité)
     
-Si vous n'etes pas inscrit, vous n'avez pas la possibilité de rédiger d'articles, d'éditer et de suprimer des articles.
+    
 
 -- Rediger un article --
 
@@ -69,10 +70,10 @@ Au moment du clic sur le bouton envoyer on traite le php situé en haut de la pa
 
 On réccupere les valeurs du fomulaire, on les stocks dans des variables, après on vérifie si l'une des valeurs n'est pas vides.
     
-    -Si un champs est vide, on affiche un message
-    -Si lors de la recherche dans la base on trouve que l'adresse email est deja utiliser, on affiche un message d'erreur
-    -Si les deux mots de passe ne son tpas identiques on affiche un message d'erreur
-    -Si tous les criteres précedents sont vérifier sans erreur, on insere l'utilisateur dans la base
+    - Si un champs est vide, on affiche un message
+    - Si lors de la recherche dans la base on trouve que l'adresse email est deja utiliser, on affiche un message d'erreur
+    - Si les deux mots de passe ne son tpas identiques on affiche un message d'erreur
+    - Si tous les criteres précedents sont vérifier sans erreur, on insere l'utilisateur dans la base
 
 Nous sommes ensuite redirigé vers la page index, et la nous pouvons nous inscrire.
 Au niveau de la page login.php, juste un formulaire avec deux champs. Lors de l'appui sur le bouton "Login", le traitement ce fait sur la "traitementConnexion.php"

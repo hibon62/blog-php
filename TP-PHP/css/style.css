@@ -8,7 +8,13 @@
 * mail: support@themifycloud.com
 */
 
+/* Import Section
+=================================================================== */
+@import url("halflings.css");											/* Glyphicons Halflings Font */
+@import url("style-forms.css");											/* Forms */
 
+/* Main Colors
+=================================================================== */
 
 .black,
 .black [class="box-header"],

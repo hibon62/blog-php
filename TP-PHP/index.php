@@ -29,9 +29,9 @@
                 //Si l'utilisateur est connecter le bouton "Editer et Supprimer" s'affiche
                 session_start(); 
                 if(isset($_SESSION['session'])){
-                    echo '<a href="editerArticle.php?idArticle='.$ligne[id] .'"><input type="button" class="btn-primary" value="Editer"></a>';
+                    echo '<a href="editerArticle.php?idArticle='.$ligne[id] .'"><input type="button" class="btn btn-success" value="Editer"></a>';
 
-                    echo '<a href="assets/deleteArticle.php?idArticle='.$ligne[id] .'"><input type="button" class="btn-primary" id="btnSuppr" value="Supprimer "></a></br>';
+                    echo '<a href="assets/deleteArticle.php?idArticle='.$ligne[id] .'"><input type="button" class="btn btn-success" id="btnSuppr" value="Supprimer "></a></br>';
 
                 };
             } ?>

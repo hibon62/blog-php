@@ -1,4 +1,4 @@
-**********************************************************************************
+﻿**********************************************************************************
 ************************         Blog de François         ************************
 **********************************************************************************
 
@@ -25,41 +25,41 @@ Pour que le code soit clair, dans chaque page j'ai fais des includes vers le hea
 
 
 
-addArticle.php = C'est le php qui traite l'ajout dans la base d'un nouvel article
+	addArticle.php = C'est le php qui traite l'ajout dans la base d'un nouvel article
 
-deconnexion.php = C'est le php qui traite la deconnexion, donc détruit la variable de session et renvoi vers la page index
+	deconnexion.php = C'est le php qui traite la deconnexion, donc détruit la variable de session et renvoi vers la page index
 
-deleteArticle.php = C'est le php qui traite la suppresion d'un article, dès que l'article est supprimer nous sommes rediriger vers la page d'accueil et un message qui affiche que l'article a bien etait supprimer
+	deleteArticle.php = C'est le php qui traite la suppresion d'un article, dès que l'article est supprimer nous sommes rediriger vers la page d'accueil et un message qui affiche que l'article a bien etait supprimer
 
-footer.php = C'est le bas de la page avec les appels des fichiers js
+	footer.php = C'est le bas de la page avec les appels des fichiers js
 
-getCookie.php = Affichage de la varible
+	getCookie.php = Affichage de la varible
 
-header.php = C'est le haut de la page avec les appels css, et si un utilisateur est connecter, il affiche le prenom de la personne connecter et l'adresse de connexion
+	header.php = C'est le haut de la page avec les appels css, et si un utilisateur est connecter, il affiche le prenom de la personne connecter et l'adresse de connexion
 
-nav.php = Cette page gere la barre de navigation avec les boutons de connexion. Si l'utilisateur est connecter on affiche le bouton déconnexion 
+	nav.php = Cette page gere la barre de navigation avec les boutons de connexion. Si l'utilisateur est connecter on affiche le bouton déconnexion 
 
-redim.php = C'est le php qui traite la redimentionnage d'une image uploader
+	redim.php = C'est le php qui traite la redimentionnage d'une image uploader
 
-setCookie = C'est le php qui traite le cookie (Le compteur de visite)
+	setCookie = C'est le php qui traite le cookie (Le compteur de visite)
 
-traitementConnexion.php = C'est le php qui traite la connexion d'un utilisateur
+	traitementConnexion.php = C'est le php qui traite la connexion d'un utilisateur
 
-updateArticle.php = C'est le php qui traite la modification d'un article et quand un article est modifier on est renvoyer vers la page d'accueil
+	updateArticle.php = C'est le php qui traite la modification d'un article et quand un article est modifier on est renvoyer vers la page d'accueil
 
-ajouterArticle.php = Fomulaire d'ajout d'un article qui lors de l'appui sur le bouton submit la page php "addArticle.php" et appeler
+	ajouterArticle.php = Fomulaire d'ajout d'un article qui lors de l'appui sur le bouton submit la page php "addArticle.php" et appeler
 
-editerArticle.php = Formulaire pour modifier un article
+	editerArticle.php = Formulaire pour modifier un article
 
-index.php = Page avec tous les articles présent en base de données
+	index.php = Page avec tous les articles présent en base de données
 
-login.php = Page pour ce connecter au blog
+	login.php = Page pour ce connecter au blog
 
-logout.php = Page pour ce déconnecter du blog
+	logout.php = Page pour ce déconnecter du blog
 
-recherche.php = C'est le php qui traite la recherche d'un article
+	recherche.php = C'est le php qui traite la recherche d'un article
 
-register.php = Page pour s'incrire au blog
+	register.php = Page pour s'incrire au blog
 
 
 

@@ -77,6 +77,16 @@ label {
     border-radius: 4px;
 }
 
+.news {
+    padding-left: 10px;
+    height: 30px;
+    color: #818285;
+    font-weight: 300;
+    outline: none;
+    border: 1px solid #dbb075;
+    border-radius: 4px;
+}
+
 
 .field-toggle{
     top: 30px;

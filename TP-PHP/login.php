@@ -29,7 +29,7 @@
                         <fieldset>
 
                             <div class="input-prepend" title="Utilisateur">
-                                <span class="add-on"><i class="halflings-icon user"></i></span>
+                                <span class="add-on"><i class="halflings-icon envelope"></i></span>
                                 <input class="input-large span10" name="email" id="username" type="email" placeholder="Entrer votre E-mail"/>
                             </div>
                             <div class="clearfix"></div>

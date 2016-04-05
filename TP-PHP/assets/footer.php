@@ -6,11 +6,10 @@
 
 
 <!-- JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script>
     // Fonction appui icone search
-        $('.fa-search').on('click', function() {
+        $('.fa-search').mouseover( function() {
             $('.field-toggle').fadeToggle(200);
         });
         

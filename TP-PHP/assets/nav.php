@@ -19,7 +19,8 @@
         <div id="navbar" class="topbar-right">
             <input class="news" name="news" id="news" type="text" placeholder="Abonnez-vous !!!"/>
             <input type="button" id="addNews" class="btn btn-success" value="OK">
-        
+        <!--    <a href="#"  id="addNews" ><button type="submit"  class="btn btn-success" >OK</button></a>-->
+
             <?php if(!isset($_SESSION['session'])){?>
             <a href="register.php"><button type="submit" class="btn btn-success" >S'inscrire</button></a>
             <a href="login.php"><button type="submit" class="btn btn-success" >Se connecter</button></a>

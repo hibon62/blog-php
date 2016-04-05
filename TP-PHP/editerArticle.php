@@ -8,7 +8,7 @@
           <h1>Blog de François <small>Pour m'initier à PHP</small></h1>
         </div>
         
-        
+        <div class="span8">
 
              <?php
 
@@ -20,13 +20,14 @@
 
               //Affichage du formulaire avec les données recupére
               echo '<form action="assets/updateArticle.php" method="post">';
-              echo  '<label>Titre de l\'articles</label><br>';
-              echo '<input type="text" name="titreArticle" value="'.$ligne[titre].'" class="iputForm"><br>';
+              echo '<label>Titre de l\'articles</label><br>';
+              echo '<input type="text" name="titreArticle" value="'.$ligne[titre].'" class="inputForm"><br>';
               echo '<input type="text" name="idArticle" value="'.$_GET[idArticle].'" class="invisible"><br>';
               echo '<label>Description de l\'articles</label><br>';
-              echo  '<textarea name="descriptionArticle" class="iputForm">"'.$ligne[contene].'"</textarea><br>';
-              echo  '<input type="submit" value="editer"> </form></div>';
+              echo '<textarea name="descriptionArticle" class="inputForm">"'.$ligne[contene].'"</textarea><br>';
+              echo '<input type="submit" value="editer"> </form></div>';
           ?>
+          </div>
       </div><!--/content-->
     </div><!--/container-->
 

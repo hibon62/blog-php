@@ -17,8 +17,7 @@ if(isset($_POST[titreArticle])&&isset($_POST[descriptionArticle])){
 		<!--Affichage d'une popup pour confirmer la modification-->
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<script type="text/javascript">
-		alert("Votre article à bien était modifier");
-		window.location.href= "../../index.php";
+		window.location.href= "../index.php";
 		</script>
 		<?php
 	}

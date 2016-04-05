@@ -81,7 +81,7 @@ if (isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['email']) &&
                             <div class="clearfix"></div>
                             
                             <div class="input-prepend" title="E-mail">
-                                <span class="add-on"><i class="halflings-icon user"></i></span>
+                                <span class="add-on"><i class="halflings-icon envelope"></i></span>
                                 <input class="input-large span10" name="email" id="username" type="mail" placeholder="Entrer votre E-mail"/>
                             </div>
                             <div class="clearfix"></div>

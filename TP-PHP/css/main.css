@@ -40,8 +40,10 @@ form textarea {
 }
 
 body {
-    background-image: url("..//img/bg.jpg");
-    color: aliceblue;
+    margin:0;
+    background: url("..//img/bg.jpg") no-repeat center fixed; 
+    -webkit-background-size: cover;
+    background-size: cover;
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -93,4 +95,35 @@ label {
     right: 15px;
     display: none;
     height: 50px;
+}
+
+.like {
+    display:inline-block;
+    padding:3px 7px;
+    margin-right:5px;
+    background:#0E76AC;
+    color:#fff;
+    font:bold 12px Tahoma;
+    text-align:center;
+    line-height:16px;
+}
+.like span {
+    display:inline-block;
+    border-left:1px solid #eee;
+    padding-left:4px;
+}
+.liked {
+    display:inline-block;
+    padding:3px 7px;
+    margin-right:5px;
+    background:#ddd;
+    color:#888;
+    font:bold 12px Tahoma;
+    text-align:center;
+    line-height:16px;
+}
+.liked span {
+    display:inline-block;
+    border-left:1px solid #eee;
+    padding-left:4px;
 }

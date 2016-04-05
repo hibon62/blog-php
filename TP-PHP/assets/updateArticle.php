@@ -7,7 +7,7 @@ if(isset($_POST[titreArticle])&&isset($_POST[descriptionArticle])){
 
  	$query = "UPDATE `articles` " ;
  	$query .= " SET `titre` = '". $_POST[titreArticle] . "', `contene` = " . $_POST[descriptionArticle] ;
- 	$query .= ", `date` = ".date('ymd')." WHERE `id` = " . $_POST[idArticle] . ";";
+ 	$query .= ", `date` = ".date('dmY')." WHERE `id` = " . $_POST[idArticle] . ";";
 	
 	$result = mysql_query($query);
 

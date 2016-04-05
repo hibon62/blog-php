@@ -3,7 +3,7 @@ include('connectBDD.php');
 
 if(isset($_POST[titreArticle])&&isset($_POST[descriptionArticle])){
 
-	$query = "INSERT INTO `articles`(`id`, `titre`, `contene`,  `date`, `img`) VALUES ('','".$_POST[titreArticle]."','".$_POST[descriptionArticle]."','".date('ymd')."','".$_FILES['fichier']['name']."');";
+	$query = "INSERT INTO `articles`(`id`, `titre`, `contene`,  `date`, `img`) VALUES ('','".$_POST[titreArticle]."','".$_POST[descriptionArticle]."','".date('dmY')."','".$_FILES['fichier']['name']."');";
 	//Execution de la requete
 	$result = mysql_query($query);
 
